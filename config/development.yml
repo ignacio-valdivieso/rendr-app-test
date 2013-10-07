@@ -1,1 +1,22 @@
 # Config settings for NODE_ENV=development
+
+app:
+  port: 3030
+
+rendrApp:
+  someProperty: someValue
+
+assets:
+  minify: false
+  cdn:
+    protocol: http
+    cnames: ['localhost']
+    pathPrefix: ''
+
+api:
+  default: 
+    host: api-v2.olx.com
+    protocol: http
+  travis-ci:
+    host: api.travis-ci.org
+    protocol: https
