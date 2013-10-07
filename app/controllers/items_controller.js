@@ -4,7 +4,6 @@ module.exports = {
       collection: {collection: 'Items', params: params}
     };
     this.app.fetch(spec, function(err, result) {
-      console.log(result.collection.models[0].get('data'));
       callback(err, result);
     });
   },
