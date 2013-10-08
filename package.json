@@ -3,6 +3,7 @@
   "version": "0.2.1",
   "description": "",
   "main": "index.js",
+  "subdomain": "rendr-test",
   "scripts": {
     "test": "mocha --ui bdd --reporter spec  ./test --recursive",
     "start": "DEBUG=app:* node index.js"
@@ -30,6 +31,5 @@
   },
   "engines": {
     "node": ">=0.8"
-  },
-  "subdomain": "rendr-test",
+  }
 }
